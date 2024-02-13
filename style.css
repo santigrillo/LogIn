@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color: #f5f5f5;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: "Quicksand", sans-serif;
+}
+
+div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div h2{
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+    bottom: -5px;
+}
+
+.contlogin{
+    height: 420px;
+    width: 400px;
+}
+
+/* Log in with google */
+
+.login a{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    border: solid 1px #BFBFBF;
+    padding: 7px 0;
+    width: 100%;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.login img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login a:hover{
+    background-color:#DEDDDD;
+}
+
+
+
+/* Linea "Or" */
+
+#desinglineOr{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #666666;
+    font-weight: 400;
+}
+
+#lineOr{
+    height: 1px;
+    width: 182px;
+    margin: 0px 8px;
+    background-color: #666666;
+}
+
+/* Formularios */
+
+div form{
+    margin-top: 10px;
+    width: 400px;
+}
+
+div form label input{
+    width: 100%;
+    border: 0;
+    padding: 10px 0px 10px 0px;
+    background-color: transparent;
+    border-bottom: #666666 solid 1px;
+    margin-bottom: 20px;
+    color: #1E1E1E;
+}
+
+div form label input:focus{
+    outline: none;
+    color: #1E1E1E;
+}
+
+
+input[type=submit]{
+    background-color: #1E1E1E;
+    color: #f5f5f5;
+    border: 0;
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+input[type=submit]:hover{
+    transform: scale(1.04);
+}
+
+#forgotPassword{
+    border: 0;
+    font-size: small;
+    font-weight: bolder;
+    color: #666666;
+    text-decoration: underline;
+    position: relative;
+    left: 285px;
+    top: 5px;
+    width: 120px;
+}
+
+#forgotPassword:hover{
+    background-color: transparent;
+}
+
+#dha{
+    color: #666666;
+    font-size: medium;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#suf{
+    color: #1E1E1E;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#dha:hover{
+    transform: scale(1.04);
+}
+
+#eye{
+    position: relative;
+    left: 375px;
+    top: -50px;
+}
+
